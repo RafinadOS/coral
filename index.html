@@ -5,53 +5,100 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="theme-color" content="#000000">
 	<title>Pavel Rafeev | Frontend developer</title>
-	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
-	<meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
 	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-	<div class="info">
-		<h1 class="info__title">Pavel Rafeev</h1>
-		<h2 class="info__title-sm">Frontend developer</h2>
-		<a href="mailto:rafeev.pavel@gmail.com" class="info__mail">rafeev.pavel@gmail.com</a>
-		<a href="tel:+79052497788" class="info__phone">+7 905 2497788</a>
-	</div>
-	<div class="link">
-		<a href="https://vk.com/el_rafeev" target="_blank" class="link__item link__item-vk"></a>
-		<a href="https://www.facebook.com/rafeev.pavel" target="_blank" class="link__item link__item-fb"></a>
-		<a href="https://github.com/RafinadOS" target="_blank" class="link__item link__item-github"></a>
-		<a href="https://bitbucket.org/rafeev/" target="_blank" class="link__item link__item-bb"></a>
-	</div>
-	<div class="star">
-		<div class="star__item star__item-1"></div>
-		<div class="star__item star__item-2"></div>
-		<div class="star__item star__item-3"></div>
-		<div class="star__item star__item-4"></div>
-		<div class="star__item star__item-5"></div>
-		<div class="star__item star__item-6"></div>
-		<div class="star__item star__item-7"></div>
-		<div class="star__item star__item-8"></div>
-		<div class="star__item star__item-9"></div>
-		<div class="star__item star__item-10"></div>
-		<div class="star__item star__item-11"></div>
-		<div class="star__item star__item-12"></div>
-		<div class="star__item star__item-13"></div>
-		<div class="star__item star__item-14"></div>
-		<div class="star__item star__item-15"></div>
-	</div>
+	<header>
+		<div class="wrapper wrapper-header">
+			<div class="header">
+				<a href="#" class="header__logo"></a>
+				<div class="header__right">
+					<div class="header-contact">
+						<div class="header-contact__item header-contact__item-adress">г. Казань ул. Ямашева 97, 1 этаж<br>с 10.00- 22.00, БЕЗ выходных</div>
+						<div class="header-contact__item header-contact__item-tel">+7 (843) 237-51-25<br>+7 (843) 245-00-97</div>
+						<div class="header-contact__item header-contact__item-whatsapp">WhatsApp<br>+7 (937) 615-00-97</div>
+						<div class="header-contact__item header-contact__item-recall">
+							<a href="#" class="button button-orange">Заказать обратный звонок</a>
+						</div>
+					</div>
+					<ul class="topmenu">
+						<li class="topmenu__item topmenu__item-hot"><a href="#">Горящие туры</a></li>
+						<li class="topmenu__item topmenu__item-deeper">
+							<a href="#">Поиск туров</a>
+							<ul class="topmenu-deeper">
+								<li class="topmenu-deeper__item"><a href="#">Новогодние туры</a></li>
+								<li class="topmenu-deeper__item"><a href="#">Зарубежные туры</a></li>
+								<li class="topmenu-deeper__item topmenu-deeper__item"><a href="#">Туры по России</a></li>
+								<li class="topmenu-deeper__item"><a href="#">Автобусные и жд туры</a></li>
+								<li class="topmenu-deeper__item"><a href="#">Речные и морские круизы</a></li>
+								<li class="topmenu-deeper__item"><a href="#">Экскурсионные туры</a></li>
+								<li class="topmenu-deeper__item"><a href="#">Лечебные туры (санатории)</a></li>
+								<li class="topmenu-deeper__item"><a href="#">Раннее бронирование 2016</a></li>
+							</ul>
+						</li>
+						<li class="topmenu__item"><a href="#">Путеводитель</a></li>
+						<li class="topmenu__item"><a href="#">Информация</a></li>
+						<li class="topmenu__item"><a href="#">О компании</a></li>
+						<li class="topmenu__item"><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="searcher">
+				<div class="searcher__block">
+					<div class="searcher__title">Подбор тура</div>
+					<form action="" class="searcher-form">
+						<div class="searcher-form__item">
+							<p class="searcher-form__title">Аэропорт вылета</p>
+							<input type="text" class="searcher-form__input searcher-form__input-flyfrom" placeholder="Калининград" required>
+							<p class="searcher-form__title">Аэропорт назначения</p>
+							<input type="text" class="searcher-form__input searcher-form__input-flyto" placeholder="Анталия" required>
+						</div>
+						<div class="searcher-form__item">
+							<p class="searcher-form__title">Дата вылета\прилета</p>
+							<input type="text" class="searcher-form__input searcher-form__input-date" placeholder="11/05/2016" required>
+							<input type="text" class="searcher-form__input searcher-form__input-date" placeholder="11/05/2016" required>
+						</div>
+						<div class="searcher-form__item">
+							<input type="submit" class="button button-go" value="Подобрать тур">
+						</div>
+					</form>
+				</div>			
+			</div>
+		</div>
+		<div class="slider" id="slider">
+			<div class="item">
+				<img src="img/bg-main.jpg" alt="">
+				<div class="wrapper wrapper-slider">
+					<div class="slider__info">
+						<p class="slider__title">Бархатный сезон в греции</p>
+						<p class="slider__text">Ежедневные вылеты из Калининграда</p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img src="img/bg-main.jpg" alt="">
+				<div class="wrapper wrapper-slider">
+					<div class="slider__info">
+						<p class="slider__title">Бархатный сезон в греции</p>
+						<p class="slider__text">Ежедневные вылеты из Калининграда</p>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img src="img/bg-main.jpg" alt="">
+				<div class="wrapper wrapper-slider">
+					<div class="slider__info">
+						<p class="slider__title">Бархатный сезон в греции</p>
+						<p class="slider__text">Ежедневные вылеты из Калининграда</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
 	<script src="./js/jquery.min.js"></script>
+	<script src="./js/owl.carousel.min.js"></script>
+	<script src="./js/jquery.maskedinput.min.js"></script>
 	<script src="./js/main.js"></script>
 </body>
 </html>
